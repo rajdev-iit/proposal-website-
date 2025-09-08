@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proposal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- Page 1 -->
+<section class="page active" id="page1">
+  <div class="container">
+     <img src="kiss.gif" alt="Cute Couple" class="couple-gif">
+    <h1>DO YOU LOVE ME? ❤️</h1>
+    <h4>I am all yours</h4>
+    <div class="buttons">
+      <button onclick="goToPage(4)">Yes</button>
+      <button onclick="goToPage(2)">No</button>
+    </div>
+  </div>
+</section>
+
+<!-- Page 2 -->
+<section class="page" id="page2">
+  <div class="container">
+    <img src="anime.jpg" alt="Cute Couple" class="couple-gif">
+    <h1>please think again.🥹</h1>
+    <h4>itni jaldi nahi toh mat bolo😭</h4>
+    <div class="buttons">
+      <button onclick="goToPage(4)">Yes</button>
+      <button onclick="goToPage(3)">No</button>
+    </div>
+  </div>
+</section>
+
+<!-- Page 3 -->
+<section class="page" id="page3">
+  <div class="container">
+    <img src="sadyboi.gif" alt="Cute Couple" class="couple-gif">
+    <h1>Baby, maan bhi jao naa... kitna bhav khaogi?🥺❤️
+    <h4>bahut galat baat hai yaar..</h4>
+    </h1>
+    <div class="buttons">
+      <button onclick="goToPage(4)">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Page 4 (Surprise + Love divs) -->
+<section class="page" id="page4">
+  <div class="container" id="page4-content">
+    <img src="kalpp.gif" alt="Cute Couple" class="couple-gif">
+    <h1>Pta tha mujhe ki haan hi bologi..🫣</h1>
+    <div class="buttons" id="buttonGroup">
+      <button id="surpriseBtn">love</button>
+      <button id="loveBtn">Flirty lines😉😘 </button>
+    </div>
+    <div id="loveContentBox"></div>
+    <button id="nextBtn" style="display:none;" onclick="goToPage(5)">Move to prem patra💘</button>
+  </div>
+</section>
+
+  <!-- Page 5 (Love Letter) -->
+  <section class="page" id="page5">
+    <div class="container">
+      <img src="anime-hug.gif" alt="Cute Couple" class="couple-gif">
+      <h2>prem patra🌹❤️</h2>
+      <p>
+        Sometimes, when I close my eyes, I find myself drifting back into the moments we once shared the laughter, the little secrets, the way our worlds felt so perfectly entwined😉. And even though time has moved forward, my heart has never truly let go of you. You are not just a memory; you are the pulse that still beats in the quiet corners of my soul.🤭💕
+
+Loving you was never just a chapter in my story—it was the whole essence of it. Every smile of yours felt like sunshine after rain😶‍🌫️, every glance like a poem written by the stars✨🌸. Even now, when life feels heavy, it’s the thought of you that carries me through. Perhaps that is what true love does—it doesn’t fade, it only waits, quietly, for its chance to bloom again.🌸🌷
+
+I know life separated our paths once, but in truth, I believe it was only to make us realize how deeply we are meant for each other. Because no matter how far I go, every road seems to whisper your name. And every heartbeat reminds me that home is not a place it’s a person and that person is you.💘🌹
+<h1>Amanraj💘^_^</h1>
+      </p>
+      <button onclick="goToPage(6)">Next</button>
+    </div>
+  </section>
+
+  <!-- Page 6 (Final Celebration) -->
+  <section class="page" id="page6">
+    <div class="container">
+      <img src="love.gif" alt="Cute Couple" class="couple-gif">
+      <h1>You Said YESSS... 💍❤️</h1>
+      <p>..now don’t blame me when I keep stealing kisses as interest.😏💋 </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
